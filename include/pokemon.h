@@ -98,8 +98,8 @@ enum {
 
 struct PokemonSubstruct0
 {
-    u16 species;
-    u16 heldItem;
+    u32 species;
+    u32 heldItem;
     u32 experience;
     u8 ppBonuses;
     u8 friendship;
@@ -108,7 +108,7 @@ struct PokemonSubstruct0
 
 struct PokemonSubstruct1
 {
-    u16 moves[MAX_MON_MOVES];
+    u32 moves[MAX_MON_MOVES];
     u8 pp[MAX_MON_MOVES];
 };
 
