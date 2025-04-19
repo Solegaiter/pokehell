@@ -105,7 +105,7 @@ static const struct CombinedMove sCombinedMoves[2] =
 #define HOENN_TO_NATIONAL(name)     [HOENN_DEX_##name - 1] = NATIONAL_DEX_##name
 
 // Assigns all species to the Hoenn Dex Index (Summary No. for Hoenn Dex)
-static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
+static const u32 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
 {
     SPECIES_TO_HOENN(BULBASAUR),
     SPECIES_TO_HOENN(IVYSAUR),
