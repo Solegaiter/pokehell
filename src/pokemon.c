@@ -58,8 +58,8 @@
 
 struct SpeciesItem
 {
-    u16 species;
-    u16 item;
+    u32 species;
+    u32 item;
 };
 
 static u16 CalculateBoxMonChecksum(struct BoxPokemon *boxMon);
@@ -86,9 +86,9 @@ EWRAM_DATA static struct MonSpritesGfxManager *sMonSpritesGfxManagers[MON_SPR_GF
 // Unreferenced here and in FRLG.
 struct CombinedMove
 {
-    u16 move1;
-    u16 move2;
-    u16 newMove;
+    u32 move1;
+    u32 move2;
+    u32 newMove;
 };
 
 static const struct CombinedMove sCombinedMoves[2] =
